@@ -1,0 +1,32 @@
+.comments{
+    margin-top: 50px;
+}
+
+.comments__block {
+    border-style: groove;
+    padding: 15px 30px 15px 30px;
+    &:not(:first-child){
+        margin-top: 15px;
+    }
+}
+
+.comments__title{
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments__text{
+    margin-top: 15px;
+}
+
+.comments__date{
+    position: relative;
+    cursor: pointer;
+}
+
+.comments__form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 30px 15px 30px;
+}
